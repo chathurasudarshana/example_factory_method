@@ -1,0 +1,1 @@
+# example_factory_method
