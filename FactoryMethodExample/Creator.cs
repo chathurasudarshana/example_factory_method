@@ -7,7 +7,7 @@
     {
         // Note that the Creator may also provide some default implementation of
         // the factory method.
-        public abstract IProduct FactoryMethod();
+        protected abstract IProduct FactoryMethod();
 
         // Also note that, despite its name, the Creator's primary
         // responsibility is not creating products. Usually, it contains some

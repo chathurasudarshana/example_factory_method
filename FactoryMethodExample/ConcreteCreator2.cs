@@ -2,7 +2,7 @@
 {
     class ConcreteCreator2 : Creator
     {
-        public override IProduct FactoryMethod()
+        protected override IProduct FactoryMethod()
         {
             return new ConcreteProduct2();
         }
